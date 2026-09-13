@@ -1,0 +1,50 @@
+{
+  "name": "promptwars",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^2.22.0",
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/three": "^0.186.0",
+    "autoprefixer": "^10.6.0",
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "docx": "^9.7.1",
+    "framer-motion": "^13.2.0",
+    "idb-keyval": "^6.3.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "jszip": "^3.10.2",
+    "lucide-react": "^1.45.0",
+    "mammoth": "^1.12.3",
+    "pdfjs-dist": "^6.3.289",
+    "postcss": "^8.5.28",
+    "pptxgenjs": "^4.0.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss": "^4.3.3",
+    "three": "^0.186.0",
+    "vite-plugin-pwa": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vercel/node": "^13.0.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}
